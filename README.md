@@ -40,3 +40,18 @@ Code in link [01_02](Handling missing data.ipynb)
   
 ### 5. Grouping and data aggregation [01_05](Grouping and data aggregation.ipynb)
   1. Grouping data by column index ```cars.groupby(cars['cyl'])```
+  
+  
+### 6. Creating standard plots [02_01](Creating standard plots.ipynb)
+  1. Required [Seaborn](https://seaborn.pydata.org/) library
+  2. Run the code as it is in python notebook ```! pip install Seaborn```
+  3. Needed ```import matplotlib.pyplot as plt```
+  4. Instant plot results ```%matplotlib inline ```
+  5. Set figure size ```rcParams['figure.figsize']=5,4```
+  6. Set figure style ```sb.set_style('whitegrid')```
+  7. Creating line chart
+  8. Ploting a line chart from pandas object/ dataframe
+  9. Creating bar charts
+  10. Bar charts from dataframes
+  11. Creating pie charts
+  12. Saving plots (as images)
