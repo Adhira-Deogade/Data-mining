@@ -42,7 +42,7 @@ Code in link [01_02](Handling missing data.ipynb)
   1. Grouping data by column index ```cars.groupby(cars['cyl'])```
   
   
-### 6. Creating standard plots [02_01](Creating standard plots.ipynb)
+### 6. Creating standard plots [02_01](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20standard%20plots.ipynb)
   1. Required [Seaborn](https://seaborn.pydata.org/) library
   2. Run the code as it is in python notebook ```! pip install Seaborn```
   3. Needed ```import matplotlib.pyplot as plt```
