@@ -65,10 +65,27 @@ All codes in Jupyter notebook
   ax1.plot(x)
   ax2.plot(x, y)
 ```
-### 8. Creating labels and annotations [2.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20labels%20and%20annotation.ipynb)
+### 8. Histograms, pie-charts, overlapping line charts [2.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Histograms%2C%20piecharts%2C%20overlapping%20line%20charts.ipynb)
+  1.Adjusting colours
+  2. Customizing line styles
+  3. Marker styles
+  
+
+### 9. Creating labels and annotations [2.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20labels%20and%20annotation.ipynb)
   1. Functional method:
   ![Image of functional method](https://github.com/Adhira-Deogade/Data-mining/blob/master/Functional%20labelling.png)
   2. Object oriented annotation:
   ![Annotation image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Object%20oriented%20annotation.png)
   
-### 9. 
+### 9. Time series [2.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Time%20series.ipynb)
+  1. Sample and plot data
+  2. Check out next repo for analysis
+
+### 10. Density, boxplots, summary statistics [2.6](https://github.com/Adhira-Deogade/Data-mining/blob/master/Density%2C%20boxplots%2C%20summary%20statistics.ipynb)
+  1. Density plot ```sb.distplot(mpg)```
+  2. Scatter plot
+  3. Regression plot
+  4. Pairplot
+  5. Pair plot with column colouring
+  6. Boxplots ```cars.boxplot(column='mpg', by='am')```
+  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Boxplot.png)
