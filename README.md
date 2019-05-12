@@ -8,7 +8,9 @@
 
 
 ## Data mining using Numpy, Pandas, matplotlib
-### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Selecting%20and%20retrieving%20data.ipynb)
+All codes in Jupyter notebook
+
+### 1. [Selecting and retrieving data](https://github.com/Adhira-Deogade/Data-mining/blob/master/Selecting%20and%20retrieving%20data.ipynb)
   1. Creating dataframe
   2. SLicing dataframe
   3. Data comparison
