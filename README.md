@@ -8,7 +8,8 @@
 
 
 ## Data mining using Numpy, Pandas, matplotlib
-### 1. Selecting and retrieving data [Step 1](Selecting and retrieving data.ipynb)
+### 1. Selecting and retrieving data 
+Code in link [Step 1](Selecting and retrieving data.ipynb)
   1. Creating dataframe
   2. SLicing dataframe
   3. Data comparison
