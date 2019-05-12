@@ -16,7 +16,8 @@ Code in link [Step 1](Selecting and retrieving data.ipynb)
   4. Filtering with scalars
   5. Setting values with scalars
      
-### 2. Handling missing data [01_02](Handling missing data.ipynb)
+### 2. Handling missing data 
+Code in link [01_02](Handling missing data.ipynb)
   1. Figuring out what data is missing
   2. Filling missing values with "0"
   3. Filling missing values with desired values
