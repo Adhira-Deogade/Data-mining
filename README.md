@@ -1,16 +1,16 @@
 # Data mining
 
 1. Data importing
-2. cleaning
-3. transforming
-4. visualization
-5. summary statistics
+2. Cleaning
+3. Transforming
+4. Visualization
+5. Summary statistics
 
 
 ## Data mining using Numpy, Pandas, matplotlib
 All codes in Jupyter notebook
 
-### 1. [Selecting and retrieving data](https://github.com/Adhira-Deogade/Data-mining/blob/master/Selecting%20and%20retrieving%20data.ipynb)
+### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Selecting%20and%20retrieving%20data.ipynb)
   1. Creating dataframe
   2. SLicing dataframe
   3. Data comparison
@@ -55,3 +55,13 @@ All codes in Jupyter notebook
   10. Bar charts from dataframes
   11. Creating pie charts
   12. Saving plots (as images)
+
+### 7. Scaling and subplotting [2.2](https://github.com/Adhira-Deogade/Data-mining/blob/master/Scaling%20and%20subplotting.ipynb)
+  1. Scaling axes ```ax.set_xlim([1,9])``` and ```ax.set_ylim([0,5])```
+  2. Subplotting charts:
+  ```
+  fig = plt.figure()
+  fig, (ax1,ax2) = plt.subplots(1,2)
+  ax1.plot(x)
+  ax2.plot(x, y)
+```
