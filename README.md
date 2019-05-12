@@ -8,16 +8,14 @@
 
 
 ## Data mining using Numpy, Pandas, matplotlib
-### 1. Selecting and retrieving data 
-Code in link [Step 1](Selecting and retrieving data.ipynb)
+### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Selecting%20and%20retrieving%20data.ipynb)
   1. Creating dataframe
   2. SLicing dataframe
   3. Data comparison
   4. Filtering with scalars
   5. Setting values with scalars
      
-### 2. Handling missing data 
-Code in link [01_02](Handling missing data.ipynb)
+### 2. Handling missing data [1.2](https://github.com/Adhira-Deogade/Data-mining/blob/master/Handling%20missing%20data.ipynb)
   1. Figuring out what data is missing
   2. Filling missing values with "0"
   3. Filling missing values with desired values
@@ -25,11 +23,11 @@ Code in link [01_02](Handling missing data.ipynb)
   5. Counting missing values
   6. Filtering out missing values
 
-### 3. Removing duplicates [01_03](Removing duplicates.ipynb)
+### 3. Removing duplicates [1.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Removing%20duplicates.ipynb)
    1. Obtaining duplicated values ```DF_obj.duplicated()```
    2. Removing duplciates ```DF_obj.drop_duplicates(['column 3'])```
    
-### 4. Concatenating and transforming data [01_04](Concatenating and transforming data.ipynb)
+### 4. Concatenating and transforming data [1.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Concatenating%20and%20transforming%20data.ipynb)
    - ```axis=1``` signifies column operation
   1. Two dataframes side-by-side ```pd.concat([DF_obj, DF_obj_2], axis=1)```
   2. Two dataframe one below the other ```pd.concat([DF_obj, DF_obj_2])```
@@ -38,11 +36,11 @@ Code in link [01_02](Handling missing data.ipynb)
   5. This can be done in two ways; either by ```df.join``` or by ```df.append```
   6. Sorting values; ```by="column_name``` and ```oreder="ascending/desccending"```
   
-### 5. Grouping and data aggregation [01_05](Grouping and data aggregation.ipynb)
+### 5. Grouping and data aggregation [1.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Grouping%20and%20data%20aggregation.ipynb)
   1. Grouping data by column index ```cars.groupby(cars['cyl'])```
   
   
-### 6. Creating standard plots [02_01](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20standard%20plots.ipynb)
+### 6. Creating standard plots [2.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20standard%20plots.ipynb)
   1. Required [Seaborn](https://seaborn.pydata.org/) library
   2. Run the code as it is in python notebook ```! pip install Seaborn```
   3. Needed ```import matplotlib.pyplot as plt```
