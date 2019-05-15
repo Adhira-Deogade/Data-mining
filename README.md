@@ -10,7 +10,7 @@
 ## Data mining using Numpy, Pandas, matplotlib
 All codes in Jupyter notebook
 
-### A. Data munging[A](https://github.com/Adhira-Deogade/Data-mining/tree/master/Data%20munging)
+### A. [Data munging](https://github.com/Adhira-Deogade/Data-mining/tree/master/Data%20munging)
 
 #### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/1.%20Selecting%20and%20retrieving%20data.ipynb)
   1. Creating dataframe
@@ -43,7 +43,7 @@ All codes in Jupyter notebook
 #### 5. Grouping and data aggregation [1.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/5.%20Grouping%20and%20data%20aggregation.ipynb)
   1. Grouping data by column index ```cars.groupby(cars['cyl'])```
   
-### B. Plotting data
+### B. [Data visualization](https://github.com/Adhira-Deogade/Data-mining/tree/master/Visualization)
 
 #### 1. Creating standard plots [2.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/1.%20Creating%20standard%20plots.ipynb)
   1. Required [seaborn](https://seaborn.pydata.org/) library
@@ -90,4 +90,4 @@ All codes in Jupyter notebook
   4. Pairplot
   5. Pair plot with column colouring
   6. Boxplots ```cars.boxplot(column='mpg', by='am')```
-  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/cars.eps)
+  ![Boxplot image](Images/boxplot.eps)
