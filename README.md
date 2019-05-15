@@ -10,17 +10,16 @@
 ## Data mining using Numpy, Pandas, matplotlib
 All codes in Jupyter notebook
 
-### I. Handling data
-Notebooks 01_01 to 01_05
+### A. Data munging
 
-#### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Selecting%20and%20retrieving%20data.ipynb)
+#### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/1.%20Selecting%20and%20retrieving%20data.ipynb)
   1. Creating dataframe
   2. SLicing dataframe
   3. Data comparison
   4. Filtering with scalars
   5. Setting values with scalars
      
-#### 2. Handling missing data [1.2](https://github.com/Adhira-Deogade/Data-mining/blob/master/Handling%20missing%20data.ipynb)
+#### 2. Handling missing data [1.2](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/2.%20Handling%20missing%20data.ipynb)
   1. Figuring out what data is missing
   2. Filling missing values with "0"
   3. Filling missing values with desired values
@@ -28,11 +27,11 @@ Notebooks 01_01 to 01_05
   5. Counting missing values
   6. Filtering out missing values
 
-#### 3. Removing duplicates [1.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Removing%20duplicates.ipynb)
+#### 3. Removing duplicates [1.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/3.%20Removing%20duplicates.ipynb)
    1. Obtaining duplicated values ```DF_obj.duplicated()```
    2. Removing duplciates ```DF_obj.drop_duplicates(['column 3'])```
    
-#### 4. Concatenating and transforming data [1.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Concatenating%20and%20transforming%20data.ipynb)
+#### 4. Concatenating and transforming data [1.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/4.%20Concatenating%20and%20transforming%20data.ipynb)
    - ```axis=1``` signifies column operation
   1. Two dataframes side-by-side ```pd.concat([DF_obj, DF_obj_2], axis=1)```
   2. Two dataframe one below the other ```pd.concat([DF_obj, DF_obj_2])```
@@ -41,11 +40,10 @@ Notebooks 01_01 to 01_05
   5. This can be done in two ways; either by ```df.join``` or by ```df.append```
   6. Sorting values; ```by="column_name``` and ```oreder="ascending/desccending"```
   
-#### 5. Grouping and data aggregation [1.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Grouping%20and%20data%20aggregation.ipynb)
+#### 5. Grouping and data aggregation [1.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/5.%20Grouping%20and%20data%20aggregation.ipynb)
   1. Grouping data by column index ```cars.groupby(cars['cyl'])```
   
-### II. Plotting data
-Notebooks 02_01 to 02_06
+### B. Plotting data
 
 #### 1. Creating standard plots [2.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20standard%20plots.ipynb)
   1. Required [seaborn](https://seaborn.pydata.org/) library
