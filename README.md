@@ -90,4 +90,4 @@ All codes in Jupyter notebook
   4. Pairplot
   5. Pair plot with column colouring
   6. Boxplots ```cars.boxplot(column='mpg', by='am')```
-  ![Boxplot image](Images/boxplot.eps)
+  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/boxplot.eps)
