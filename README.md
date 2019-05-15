@@ -10,7 +10,7 @@
 ## Data mining using Numpy, Pandas, matplotlib
 All codes in Jupyter notebook
 
-### A. Data munging
+### A. Data munging[A](https://github.com/Adhira-Deogade/Data-mining/tree/master/Data%20munging)
 
 #### 1. Selecting and retrieving data [1.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Data%20munging/1.%20Selecting%20and%20retrieving%20data.ipynb)
   1. Creating dataframe
@@ -45,7 +45,7 @@ All codes in Jupyter notebook
   
 ### B. Plotting data
 
-#### 1. Creating standard plots [2.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20standard%20plots.ipynb)
+#### 1. Creating standard plots [2.1](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/1.%20Creating%20standard%20plots.ipynb)
   1. Required [seaborn](https://seaborn.pydata.org/) library
   2. Run the code as it is in python notebook ```! pip install Seaborn```
   3. Needed ```import matplotlib.pyplot as plt```
@@ -59,7 +59,7 @@ All codes in Jupyter notebook
   11. Creating pie charts
   12. Saving plots (as images)
 
-#### 2. Scaling and subplotting [2.2](https://github.com/Adhira-Deogade/Data-mining/blob/master/Scaling%20and%20subplotting.ipynb)
+#### 2. Scaling and subplotting [2.2](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/2.%20Scaling%20and%20subplotting.ipynb)
   1. Scaling axes ```ax.set_xlim([1,9])``` and ```ax.set_ylim([0,5])```
   2. Subplotting charts:
   ```python
@@ -68,27 +68,26 @@ All codes in Jupyter notebook
   ax1.plot(x)
   ax2.plot(x, y)
 ```
-#### 3. Histograms, pie-charts, overlapping line charts [2.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Histograms%2C%20piecharts%2C%20overlapping%20line%20charts.ipynb)
+#### 3. Histograms, pie-charts, overlapping line charts [2.3](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/3.%20Histograms%2C%20piecharts%2C%20overlapping%20line%20charts.ipynb)
   1.Adjusting colours
   2. Customizing line styles
   3. Marker styles
   
-
-#### 4. Creating labels and annotations [2.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Creating%20labels%20and%20annotation.ipynb)
+#### 4. Creating labels and annotations [2.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/4.%20Creating%20labels%20and%20annotation.ipynb)
   1. Functional method:
-  ![Image of functional method](https://github.com/Adhira-Deogade/Data-mining/blob/master/Functional%20labelling.png)
+  ![Image of functional method](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/hist.eps)
   2. Object oriented annotation:
-  ![Annotation image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Object%20oriented%20annotation.png)
+  ![Annotation image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/cars.eps)
   
-#### 5. Time series [2.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Time%20series.ipynb)
+#### 5. Time series [2.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/5.%20Time%20series.ipynb)
   1. Sample and plot data
   2. Check out next repo for analysis
 
-#### 6. Density, boxplots, summary statistics [2.6](https://github.com/Adhira-Deogade/Data-mining/blob/master/Density%2C%20boxplots%2C%20summary%20statistics.ipynb)
+#### 6. Density, boxplots, summary statistics [2.6](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/6.%20Density%2C%20boxplots%2C%20summary%20statistics.ipynb)
   1. Density plot ```sb.distplot(mpg)```
   2. Scatter plot
   3. Regression plot
   4. Pairplot
   5. Pair plot with column colouring
   6. Boxplots ```cars.boxplot(column='mpg', by='am')```
-  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Boxplot.png)
+  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/cars.eps)
