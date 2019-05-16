@@ -77,7 +77,7 @@ All codes in Jupyter notebook
   1. Functional method:
   ![Image of functional method](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/hist.jpg)
   2. Object oriented annotation:
-  ![Annotation image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/cars.eps)
+  ![Annotation image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/cars.jpg)
   
 #### 5. Time series [2.5](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/5.%20Time%20series.ipynb)
   1. Sample and plot data
@@ -90,4 +90,4 @@ All codes in Jupyter notebook
   4. Pairplot
   5. Pair plot with column colouring
   6. Boxplots ```cars.boxplot(column='mpg', by='am')```
-  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/boxplot.eps)
+  ![Boxplot image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/boxplot.jpg)
