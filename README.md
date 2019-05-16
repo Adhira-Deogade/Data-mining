@@ -75,7 +75,7 @@ All codes in Jupyter notebook
   
 #### 4. Creating labels and annotations [2.4](https://github.com/Adhira-Deogade/Data-mining/blob/master/Visualization/4.%20Creating%20labels%20and%20annotation.ipynb)
   1. Functional method:
-  ![Image of functional method](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/hist.eps)
+  ![Image of functional method](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/hist.jpg)
   2. Object oriented annotation:
   ![Annotation image](https://github.com/Adhira-Deogade/Data-mining/blob/master/Images/cars.eps)
   
